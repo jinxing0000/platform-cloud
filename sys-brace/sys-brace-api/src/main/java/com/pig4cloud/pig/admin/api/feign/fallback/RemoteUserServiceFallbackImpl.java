@@ -18,7 +18,7 @@ package com.pig4cloud.pig.admin.api.feign.fallback;
 
 import com.pig4cloud.pig.admin.api.dto.UserInfo;
 import com.pig4cloud.pig.admin.api.feign.RemoteUserService;
-import com.pig4cloud.pig.common.core.util.R;
+import com.platform.cloud.common.core.util.R;
 import lombok.Setter;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;

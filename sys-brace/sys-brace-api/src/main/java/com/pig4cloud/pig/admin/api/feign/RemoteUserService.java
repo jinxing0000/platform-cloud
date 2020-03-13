@@ -18,9 +18,9 @@ package com.pig4cloud.pig.admin.api.feign;
 
 import com.pig4cloud.pig.admin.api.dto.UserInfo;
 import com.pig4cloud.pig.admin.api.feign.factory.RemoteUserServiceFallbackFactory;
-import com.pig4cloud.pig.common.core.constant.SecurityConstants;
-import com.pig4cloud.pig.common.core.constant.ServiceNameConstants;
-import com.pig4cloud.pig.common.core.util.R;
+import com.platform.cloud.common.core.constant.SecurityConstants;
+import com.platform.cloud.common.core.constant.ServiceNameConstants;
+import com.platform.cloud.common.core.util.R;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

@@ -23,7 +23,7 @@ import com.pig4cloud.pig.admin.api.entity.SysRoleMenu;
 import com.pig4cloud.pig.admin.mapper.SysRoleMapper;
 import com.pig4cloud.pig.admin.mapper.SysRoleMenuMapper;
 import com.pig4cloud.pig.admin.service.SysRoleService;
-import com.pig4cloud.pig.common.core.constant.CacheConstants;
+import com.platform.cloud.common.core.constant.CacheConstants;
 import lombok.AllArgsConstructor;
 import org.springframework.cache.annotation.CacheEvict;
 import org.springframework.stereotype.Service;

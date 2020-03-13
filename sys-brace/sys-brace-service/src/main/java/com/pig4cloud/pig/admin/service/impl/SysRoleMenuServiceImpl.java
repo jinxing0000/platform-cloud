@@ -22,7 +22,7 @@ import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.pig4cloud.pig.admin.api.entity.SysRoleMenu;
 import com.pig4cloud.pig.admin.mapper.SysRoleMenuMapper;
 import com.pig4cloud.pig.admin.service.SysRoleMenuService;
-import com.pig4cloud.pig.common.core.constant.CacheConstants;
+import com.platform.cloud.common.core.constant.CacheConstants;
 import lombok.AllArgsConstructor;
 import org.springframework.cache.CacheManager;
 import org.springframework.cache.annotation.CacheEvict;

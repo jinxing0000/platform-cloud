@@ -16,7 +16,7 @@
 
 package com.pig4cloud.pig.auth.config;
 
-import com.pig4cloud.pig.common.security.handler.FormAuthenticationFailureHandler;
+import com.platform.cloud.common.security.handler.FormAuthenticationFailureHandler;
 import lombok.SneakyThrows;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

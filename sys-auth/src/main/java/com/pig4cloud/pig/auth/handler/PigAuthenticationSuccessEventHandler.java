@@ -16,7 +16,7 @@
 
 package com.pig4cloud.pig.auth.handler;
 
-import com.pig4cloud.pig.common.security.handler.AbstractAuthenticationSuccessEventHandler;
+import com.platform.cloud.common.security.handler.AbstractAuthenticationSuccessEventHandler;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.security.core.Authentication;
 import org.springframework.stereotype.Component;

@@ -20,7 +20,7 @@ package com.pig4cloud.pig.admin.service;
 import com.baomidou.mybatisplus.extension.service.IService;
 import com.pig4cloud.pig.admin.api.entity.SysMenu;
 import com.pig4cloud.pig.admin.api.vo.MenuVO;
-import com.pig4cloud.pig.common.core.util.R;
+import com.platform.cloud.common.core.util.R;
 
 import java.util.List;
 

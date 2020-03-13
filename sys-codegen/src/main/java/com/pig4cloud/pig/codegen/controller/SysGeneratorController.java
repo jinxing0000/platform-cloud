@@ -21,13 +21,12 @@ import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.pig4cloud.pig.codegen.entity.GenConfig;
 import com.pig4cloud.pig.codegen.service.SysGeneratorService;
-import com.pig4cloud.pig.common.core.util.R;
+import com.platform.cloud.common.core.util.R;
 import lombok.AllArgsConstructor;
 import lombok.SneakyThrows;
 import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpServletResponse;
-import java.io.IOException;
 
 /**
  * 代码生成器

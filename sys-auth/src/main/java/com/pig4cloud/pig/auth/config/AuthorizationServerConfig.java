@@ -16,11 +16,11 @@
 
 package com.pig4cloud.pig.auth.config;
 
-import com.pig4cloud.pig.common.core.constant.CacheConstants;
-import com.pig4cloud.pig.common.core.constant.SecurityConstants;
-import com.pig4cloud.pig.common.security.component.PigWebResponseExceptionTranslator;
-import com.pig4cloud.pig.common.security.service.PigClientDetailsService;
-import com.pig4cloud.pig.common.security.service.PigUser;
+import com.platform.cloud.common.core.constant.CacheConstants;
+import com.platform.cloud.common.core.constant.SecurityConstants;
+import com.platform.cloud.common.security.component.PigWebResponseExceptionTranslator;
+import com.platform.cloud.common.security.service.PigClientDetailsService;
+import com.platform.cloud.common.security.service.PigUser;
 import lombok.AllArgsConstructor;
 import lombok.SneakyThrows;
 import org.springframework.context.annotation.Bean;

@@ -17,7 +17,7 @@
 package com.pig4cloud.pig.admin.config;
 
 import com.baomidou.mybatisplus.extension.plugins.PaginationInterceptor;
-import com.pig4cloud.pig.common.core.mybatis.DataScopeInterceptor;
+import com.platform.cloud.common.core.mybatis.DataScopeInterceptor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

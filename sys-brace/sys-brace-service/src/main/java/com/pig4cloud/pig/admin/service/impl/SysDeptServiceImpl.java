@@ -26,7 +26,7 @@ import com.pig4cloud.pig.admin.api.vo.TreeUtil;
 import com.pig4cloud.pig.admin.mapper.SysDeptMapper;
 import com.pig4cloud.pig.admin.service.SysDeptRelationService;
 import com.pig4cloud.pig.admin.service.SysDeptService;
-import com.pig4cloud.pig.common.security.util.SecurityUtils;
+import com.platform.cloud.common.security.util.SecurityUtils;
 import lombok.AllArgsConstructor;
 import org.springframework.beans.BeanUtils;
 import org.springframework.stereotype.Service;

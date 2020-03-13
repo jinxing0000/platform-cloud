@@ -17,8 +17,8 @@ package com.pig4cloud.pig.admin.controller;
 
 import com.pig4cloud.pig.admin.api.entity.SysDept;
 import com.pig4cloud.pig.admin.service.SysDeptService;
-import com.pig4cloud.pig.common.core.util.R;
-import com.pig4cloud.pig.common.log.annotation.SysLog;
+import com.platform.cloud.common.core.util.R;
+import com.platform.cloud.common.log.annotation.SysLog;
 import lombok.AllArgsConstructor;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;

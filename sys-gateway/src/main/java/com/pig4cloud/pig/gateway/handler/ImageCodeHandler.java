@@ -17,7 +17,7 @@
 package com.pig4cloud.pig.gateway.handler;
 
 import com.google.code.kaptcha.Producer;
-import com.pig4cloud.pig.common.core.constant.CommonConstants;
+import com.platform.cloud.common.core.constant.CommonConstants;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.core.io.ByteArrayResource;

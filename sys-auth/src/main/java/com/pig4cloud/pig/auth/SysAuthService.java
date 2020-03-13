@@ -1,7 +1,7 @@
 package com.pig4cloud.pig.auth;
 
 
-import com.pig4cloud.pig.common.security.annotation.EnablePigFeignClients;
+import com.platform.cloud.common.security.annotation.EnablePigFeignClients;
 import org.springframework.boot.SpringApplication;
 import org.springframework.cloud.client.SpringCloudApplication;
 

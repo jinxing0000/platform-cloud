@@ -17,8 +17,8 @@
 package com.pig4cloud.pig.admin.controller;
 
 import com.pig4cloud.pig.admin.api.feign.RemoteTokenService;
-import com.pig4cloud.pig.common.core.constant.SecurityConstants;
-import com.pig4cloud.pig.common.core.util.R;
+import com.platform.cloud.common.core.constant.SecurityConstants;
+import com.platform.cloud.common.core.util.R;
 import lombok.AllArgsConstructor;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;

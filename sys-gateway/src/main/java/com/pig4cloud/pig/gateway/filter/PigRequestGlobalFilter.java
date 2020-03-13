@@ -16,7 +16,7 @@
 
 package com.pig4cloud.pig.gateway.filter;
 
-import com.pig4cloud.pig.common.core.constant.SecurityConstants;
+import com.platform.cloud.common.core.constant.SecurityConstants;
 import org.springframework.cloud.gateway.filter.GatewayFilterChain;
 import org.springframework.cloud.gateway.filter.GlobalFilter;
 import org.springframework.core.Ordered;
