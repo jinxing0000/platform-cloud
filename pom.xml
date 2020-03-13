@@ -19,11 +19,11 @@
 		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<parent>
-		<groupId>com.pig4cloud</groupId>
-		<artifactId>pig-cloud-dependencies-parent</artifactId>
-		<version>Hoxton.SR2</version>
-	</parent>
+<!--	<parent>-->
+<!--		<groupId>com.pig4cloud</groupId>-->
+<!--		<artifactId>pig-cloud-dependencies-parent</artifactId>-->
+<!--		<version>Hoxton.SR2</version>-->
+<!--	</parent>-->
 
 	<groupId>com.platform.cloud</groupId>
 	<artifactId>platform</artifactId>
