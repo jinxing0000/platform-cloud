@@ -16,6 +16,7 @@
 
 package com.platform.cloud.common.log.event;
 
+
 import com.pig4cloud.pig.admin.api.entity.SysLog;
 import com.pig4cloud.pig.admin.api.feign.RemoteLogService;
 import com.platform.cloud.common.core.constant.SecurityConstants;

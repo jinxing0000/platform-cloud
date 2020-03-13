@@ -14,19 +14,22 @@
  * limitations under the License.
  */
 
-package com.platform.cloud.common.log.event;
+package com.platform.cloud.gateway.config;
 
-
-import com.pig4cloud.pig.admin.api.entity.SysLog;
-import org.springframework.context.ApplicationEvent;
+import org.springframework.cloud.gateway.filter.ratelimit.KeyResolver;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import reactor.core.publisher.Mono;
 
 /**
  * @author lengleng
- * 系统日志事件
+ * @date 2019/2/1
+ * 路由限流配置
  */
-public class SysLogEvent extends ApplicationEvent {
-
-	public SysLogEvent(SysLog source) {
-		super(source);
+@Configuration
+public class RateLimiterConfiguration {
+	@Bean(value = "remoteAddrKeyResolver")
+	public KeyResolver remoteAddrKeyResolver() {
+		return exchange -> Mono.just(exchange.getRequest().getRemoteAddress().getAddress().getHostAddress());
 	}
 }

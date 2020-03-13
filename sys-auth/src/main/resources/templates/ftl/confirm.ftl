@@ -5,7 +5,7 @@
     <meta charset="UTF-8"/>
     <meta name="viewport"
           content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"/>
-    <title>PigX第三方授权</title>
+    <title>第三方授权</title>
     <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css"/>
     <link rel="stylesheet" type="text/css" href="/css/signin.css"/>
 </head>
@@ -17,9 +17,6 @@
             <a class="navbar-brand" href="#">开放平台</a>
         </div>
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-5">
-            <p class="navbar-text navbar-right">
-                <a target="_blank" href="https://pig4cloud.com">技术支持</a>
-            </p>
             <p class="navbar-text navbar-right">
                 <a target="_blank" href="https://pig4cloud.com">${user.username}</a>
             </p>
@@ -44,8 +41,6 @@
     </form>
 </div>
 <footer>
-    <p>support by: pig4cloud.com</p>
-    <p>email: <a href="mailto:wangiegie@gmail.com">wangiegie@gmail.com</a>.</p>
 </footer>
 </body>
 </html>
